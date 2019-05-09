@@ -1,0 +1,41 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 10px;
+	height: 15vh;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 20vh;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	grid-gap: 2px;
+	padding: 10px;	
+	color: #03C9FF;
+	border: 3px #03C9FF solid;
+	font-family: Bebas Neue;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-size: cover;
+}
